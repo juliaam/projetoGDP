@@ -63,7 +63,7 @@
     cursor: pointer; color: rgb(56, 56, 56);
     border-radius: 100px; border: 1px solid rgb(170, 170, 170); padding: 5px 10px;
     box-shadow: 0px 0px 15px -8px  rgb(0, 0, 0);
-
+    background-color: antiquewhite;
 }
 .ControleTexto:hover {
     font-size: 1.8rem; color: black;
