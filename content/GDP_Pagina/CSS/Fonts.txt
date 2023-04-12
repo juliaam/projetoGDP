@@ -1,0 +1,7 @@
+font-family: 'Righteous', cursive;
+font-family: 'Alata', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'PT Sans Caption', sans-serif;
+font-family: 'Secular One', sans-serif;
+font-family: 'Varela Round', sans-serif;
