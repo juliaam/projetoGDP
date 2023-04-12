@@ -1,0 +1,122 @@
+
+
+
+.Cabeca { 
+    height: 120px; width: 100%; position: relative;
+    display: flex; flex-direction: row; justify-content: center; align-items: center;
+}
+
+
+/*TITULO =========================================================================================*/
+
+.Titulo {
+    font-size: calc(2rem + 1vw); letter-spacing: 0.2rem; color: rgb(0, 0, 0); 
+    cursor: pointer; transition: font-size 0.5s, text-shadow 0.5s;
+
+}
+
+
+.Titulo:hover {
+    font-size: 4rem; 
+    
+}
+
+
+/*HORARIO =========================================================================================*/
+.CaixaHora {
+    position: absolute; right: 5%; font-size: 1rem;
+    
+    display: flex; flex-direction: row;
+    
+}
+
+
+.DedoMeio {
+    margin-left: 5px; font-size: 1.2rem; transform: translateY(-25%);
+    animation: Rodar360 5s linear infinite; color: rgb(0, 0, 0); 
+
+}
+
+/*CONTROLE =========================================================================================*/
+
+
+.ControleCaixa {
+    color: white; font-size: calc(1rem + 1vw); cursor: pointer; height: 120px; width: calc(60px + 11vw);
+    position: fixed; left: 5%; z-index: 10;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    
+
+}
+
+
+
+.ControleTextoPai{
+    position: absolute; height: 100%; width: 100%;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;    
+    cursor: default;
+}
+
+.ControleTexto {
+    transition: font-size 0.3s, transform 0.2s, color 0.3s; font-size: 1.5rem;
+    cursor: pointer; color: rgb(56, 56, 56);
+    border-radius: 100px; border: 1px solid rgb(170, 170, 170); padding: 5px 10px;
+    box-shadow: 0px 0px 15px -8px  rgb(0, 0, 0);
+
+}
+.ControleTexto:hover {
+    font-size: 1.8rem; color: black;
+
+}
+
+
+
+
+
+
+.Controle {
+    background-color: white; 
+    position: absolute; height: 100%; width: 100%; top: 1%;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    transform: scale(0); 
+    transition: font-size 0.5s, transform 0.2s;
+    border: 1px solid rgb(170, 170, 170); border-radius: 20px;
+    box-shadow: 0px 0px 15px -8px  rgb(0, 0, 0);
+}
+
+.Controle div {
+    flex-grow: 1; width: 100%;
+    transition: flex-grow 0.3s;
+    
+}
+
+.Controle div a {
+    height: 100%; width: 100%;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-decoration: none; color: rgb(150, 150, 150); 
+    font-size: 1.2rem; transition: font-size 0.3s, color 0.3s;
+
+}
+
+
+.Controle div:hover {
+    flex-grow: 2; 
+
+}
+
+.Controle div a:hover {
+    font-size: 1.5rem; color: rgb(0, 0, 0);
+
+}
+
+
+
+.first { border-bottom: 1px solid rgb(170, 170, 170); }
+.middle { border-bottom: 1px solid rgb(170, 170, 170); }
+.last {border-radius: 0px 0px 15px 15px ;}
+
+
+
+
+
+
+
