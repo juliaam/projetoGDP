@@ -12,7 +12,7 @@
 /*TITULO =========================================================================================*/
 
 .Titulo {
-    font-size: calc(2rem + 1vw); letter-spacing: 0.2rem; color: rgb(0, 0, 0); 
+    font-size: calc(2rem + 1vw); letter-spacing: 0.2rem; color: rgb(255, 255, 255); 
     cursor: pointer; transition: font-size 0.5s, text-shadow 0.5s;
 
 }
@@ -20,7 +20,7 @@
 
 .Titulo:hover {
     font-size: 4rem; 
-    
+    text-shadow: 0px 0px 7px  rgb(255, 255, 255) ;
 }
 
 
