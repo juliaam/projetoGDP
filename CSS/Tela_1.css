@@ -10,13 +10,10 @@
 
 
 /*TITULO =========================================================================================*/
-
 .Titulo {
     font-size: calc(2rem + 1vw); letter-spacing: 0.2rem; color: rgb(255, 255, 255); 
     cursor: pointer; transition: font-size 0.5s, text-shadow 0.5s;
-
 }
-
 
 .Titulo:hover {
     font-size: 4rem; 
@@ -27,16 +24,13 @@
 /*HORARIO =========================================================================================*/
 .CaixaHora {
     position: absolute; right: 5%; font-size: 1rem;
-    
     display: flex; flex-direction: row;
     
 }
 
-
 .DedoMeio {
     margin-left: 5px; font-size: 1.2rem; transform: translateY(-25%);
     animation: Rodar360 5s linear infinite; color: rgb(0, 0, 0); 
-
 }
 
 /*CONTROLE =========================================================================================*/
@@ -47,10 +41,7 @@
     position: fixed; left: 5%; z-index: 10;
     display: flex; flex-direction: column; justify-content: center; align-items: center;
     
-
 }
-
-
 
 .ControleTextoPai{
     position: absolute; height: 100%; width: 100%;
@@ -70,10 +61,7 @@
 
 }
 
-
-
-
-
+/*CONTROLE REAL*/
 
 .Controle {
     background-color: white; 
@@ -88,7 +76,6 @@
 .Controle div {
     flex-grow: 1; width: 100%;
     transition: flex-grow 0.3s;
-    
 }
 
 .Controle div a {
@@ -96,22 +83,18 @@
     display: flex; flex-direction: column; justify-content: center; align-items: center;
     text-decoration: none; color: rgb(150, 150, 150); 
     font-size: 1.2rem; transition: font-size 0.3s, color 0.3s;
-
 }
-
 
 .Controle div:hover {
     flex-grow: 2; 
-
 }
 
 .Controle div a:hover {
     font-size: 1.5rem; color: rgb(0, 0, 0);
-
 }
 
 
-
+/*OPÇÕES DO CONTROLE*/
 .first { border-bottom: 1px solid rgb(170, 170, 170); }
 .middle { border-bottom: 1px solid rgb(170, 170, 170); }
 .last {border-radius: 0px 0px 15px 15px ;}

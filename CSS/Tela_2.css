@@ -1,7 +1,6 @@
 :root {
     --BordaRedonda: 15px
 
-
 }
 
 .EL {
@@ -9,6 +8,7 @@
     background-position: center center;
     transition: 0.5s;
 }
+
 
 /*Crescimento / vertical de imagem*/
 .EL_V{ background-size: auto 100%; }
